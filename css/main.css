@@ -17,7 +17,7 @@
 
 body {
     background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family:  Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
     line-height: 24px;
     font-size: 16px;
     color: #818181;
@@ -50,7 +50,7 @@ a, a:hover, a:focus, .btn:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
     color: #252525;
 }
 
