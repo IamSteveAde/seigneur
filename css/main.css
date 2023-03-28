@@ -305,6 +305,27 @@ h1.navbar-brand {
     font-size: 15px;
     text-transform: uppercase;
 }
+/*logo*/
+.navbar-brand img{
+    position: relative;
+    left: -110px;
+}
+/* Tab Screen logo */
+@media only screen and (max-width: 768px) {
+    .navbar-brand img{
+        position: relative;
+        left: -50px;
+    }
+}
+/* Mobile Screen logo */
+@media only screen and (max-width: 600px) {
+    .navbar-brand img{
+        position: relative;
+        left: -30px;
+    }
+}
+
+
 
 
 /*=================================================================
