@@ -156,7 +156,7 @@
 }
 
 .bg-img-1 {
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pii.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Picture6.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	box-sizing: border-box;
@@ -168,7 +168,7 @@
 	box-sizing: border-box;
 }
 .bg-img-3 {
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Picture6.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pii.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	box-sizing: border-box;
@@ -176,7 +176,7 @@
 /* Mobile Screen BACKGROUND */
 @media only screen and (max-width: 600px) {
 	.bg-img-1 {
-		background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/piimob.jpg);
+		background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pix6.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		box-sizing: border-box;
@@ -188,7 +188,7 @@
 		box-sizing: border-box;
 	}
 	.bg-img-3 {
-		background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pix6.jpg);
+		background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/piimob.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		box-sizing: border-box;

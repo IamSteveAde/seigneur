@@ -280,7 +280,8 @@ main > section {
          -o-transition: all 0.8s ease 0s;
             transition: all 0.8s ease 0s;
 
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: rgba(0, 0, 0, 0.212);
+    border: solid 0.5px  rgba(0, 0, 0, 0.212);
     
     padding: 5px 0;
 }
@@ -307,20 +308,29 @@ h1.navbar-brand {
 .logom img{
     position: relative;
     left: -110px;
+    width: 70%;
 }
 /* Tab Screen logo */
 @media only screen and (max-width: 768px) {
     .logom img{
         position: relative;
         left: -50px;
+        width: 30%;
     }
 }
 /* Mobile Screen logo */
 @media only screen and (max-width: 600px) {
     .logom img{
         position: relative;
-        right: -30px;
+        left: -5px;
+        width: 30%;
     }
+}
+/*navbar*/
+#navs{
+    
+    position: relative;
+    bottom: -5px;
 }
 
 
@@ -1497,4 +1507,49 @@ textarea.form-control {
 }
 #navs #nav li :hover{
     color: #0A85BB;
+}
+#service .container .row #boxed{
+    background-color: transparent;
+    border: solid 0.5px #0A85BB;
+    border-radius: 10px;
+    box-shadow: 5px 2px #0A85BB ;
+   
+    
+
+}
+#service .container .row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+/* Tab Screen logo */
+@media only screen and (max-width: 768px) {
+    #service .container .row{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 80%;
+        position: relative;
+        text-align: center;
+        left: 50px;
+       
+    }
+}
+/* Mobile Screen logo */
+@media only screen and (max-width: 600px) {
+    #service .container .row{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 80%;
+        position: relative;
+        text-align: center;
+        left: 50px;
+
+        
+    }
+    #service{
+        text-align: center;
+    }
 }
