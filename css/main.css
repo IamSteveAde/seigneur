@@ -1257,7 +1257,7 @@ textarea.form-control {
 @media only screen and (max-width: 767px) {
 
     body {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .parallax {
@@ -1265,7 +1265,7 @@ textarea.form-control {
     }
 
     .sec-title h2 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .sec-title h2:after {
@@ -1284,21 +1284,21 @@ textarea.form-control {
 
 /* slider */
     .caption-content h2 {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .caption-content > span {
-        font-size: 16px;
+        font-size: 18px;
         margin-bottom: 20px;
     }
 
     .caption-content p {
-        font-size: 16px;
+        font-size: 18px;
         margin-bottom: 30px;
     }
 
     .caption-content strong {
-        font-size: 22px;
+        font-size: 24px;
     }
 
 /* about */
@@ -1307,7 +1307,7 @@ textarea.form-control {
     }
 
     #about h3 {
-        font-size: 18px;
+        font-size: 20px;
         margin: 0 0 35px !important;
     }
 
@@ -1332,7 +1332,7 @@ textarea.form-control {
 /*portfolio*/
     .portfolio-item {
         margin: 0 auto 10px;
-        font-size: 14px;
+        font-size: 18px;
         width: 280px;
     }
 
@@ -1344,7 +1344,7 @@ textarea.form-control {
 
 /* lightbox */
     .fancybox-title h3 {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .fancybox-title p {
