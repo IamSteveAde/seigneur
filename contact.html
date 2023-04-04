@@ -46,7 +46,7 @@
         <link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/contact.css">
 		<link rel="stylesheet" href="css/input.css">
-        <link rel="stylesheet" href="css/admissions.css">
+        <link rel="stylesheet" href="css/contact.css">
 
 		<!-- Modernizer Script for old Browsers -->
         <script src="js/modernizr-2.6.2.min.js"></script>
@@ -99,7 +99,7 @@
 						<li><a href="academic.html">Academics</a></li>
                         <li><a href="about.html">About Us</a></li>
 						<li><a href="#">Extra-Curricular Activities</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
 				<!-- /main nav -->
@@ -107,42 +107,139 @@
             </div>
         </header>
        
-		<header class="admission">
-            <div class="admin-box">
-                <div class="heading1">
-                    <h1 class="admin-title">Admssions</h1>
-                    <p class="sub-admin">Join us at Seigneur International Academy</p>
+		<section id="contact" >
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="sec-title text-center wow animated fadeInDown">
+                        <h2>Contact</h2>
+                        <p>Leave a Message</p>
+                    </div>
+                    
+                    
+                    <div id="contact_container" class="contact_container">
+                        <div
+                          class="address_container"
+                          data-aos="slide-up"
+                          data-aos-duration="900"
+                          data-aos-easing="ease-out-quart"
+                          
+                        >
+                          <h2
+                            data-aos="slide-right"
+                            data-aos-duration="900"
+                            data-aos-easing="ease-out-quart"
+                            
+                          >
+                            Get In Touch
+                          </h2>
+                          <h1>We are always here to support you</h1><br>
+                          <p>
+                            For any questions, contact us by directly sending an email or
+                            filling the contact form. To have a personal discussion with our
+                            team, visit or call our office.
+                          </p><br>
+                          <div class="email_container">
+                            <a href="mailto:info@straplanadvisory.com"
+                              ><p>
+                                <i class="fa fa-envelope" aria-hidden="true"></i
+                                ><span>info@seigneurinternationalacademy.com</span>
+                              </p></a
+                            >
+                          </div>
+                          <div class="location_container">
+                            <a href=""
+                              ><p>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i
+                                ><span
+                                  >Along Musibau Adekunle
+                                  Soladoye Road;
+                                  Opposite Post Army Service
+                                  Housing Estate; Kurudu
+                                  Phase 5; ABUJA.</span
+                                >
+                              </p></a
+                            >
+                          </div>
+                          <div class="phone_container">
+                            <a href="tel:+2348106325462" class="contact_links"
+                              ><p>
+                                <i class="fa fa-phone" aria-hidden="true"></i
+                                ><span>+234 810632 5462</span>
+                              </p></a
+                            >
+                          </div>
+                          
+                          
+                        </div>
+                        
+                        <div class="form_container">
+                          <form
+                            data-aos="slide-up"
+                            data-aos-duration="900"
+                            data-aos-easing="ease-out-quart"
+                            id="homeContactForm"
+                            onsubmit="SubmitContactForm(event)"
+                          >
+                            <div class="input_container">
+                              <div class="user_box">
+                                <input type="text" id="firstname_inputfield" name="First&nbsp;Name" required />
+                                <label>First Name</label>
+                              </div>
+                              <div class="user_box">
+                                <input type="text" id="lastname_inputfield" name="Last&nbsp;Name" required />
+                                <label>Last Name</label>
+                              </div>
+                            </div>
+                            <div class="input_container">
+                              <div class="user_box">
+                                <input type="email" id="email_inputfield" name="Email" required />
+                                <label>Email</label>
+                              </div>
+                              <div class="user_box">
+                                <input type="tel" id="tel_inputfield" name="Phone&nbsp;Number" required />
+                                <label>Phone Number</label>
+                              </div>
+                            </div>
+                            <div class="user_box other_container">
+                              <input type="text" id="subject_inputfield" name="Subject" required />
+                              <label>Subject</label>
+                            </div>
+                            <div class="user_box other_container">
+                              <textarea
+                                required
+                                name="Questions/Comments"
+                                id="message_textarea"
+                                cols="30"
+                                rows="10"
+                              ></textarea>
+                              <label>Message</label>
+                            </div>
+                            <input
+                              type="submit"
+                              id="send_message_button"
+                              value="Send Message"
+                            />
+                          </form>
+                          <div 
+                            >
+                          <p id="correct_response">
+                            Thank you for contacting us, your message has been sent.
+                          </p>
+                          <p id="error_response">
+                            Error! Your message has not been sent. Please Try again!.
+                          </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                
+              
+                    
+                    
                 </div>
-				<div class="admin-container">
-					<div class="image-Container">
-						<img src="./img/home_bg.jpg">
-
-					</div>
-					<div id="sec" class="second-admissions">
-						Apply Seamlessly to seigneur International Academy. Download our application form online, and submit to us.
-						Your Child's education prowesss is our responsibility and we do not take it for granted
-						We offer Pre-Nursery Education, Nursery Education, Primary Education and Secondary Education.
-						We take full pride in our education system, and our Extra-Curricular activities
-					<br><br><p><b>SEIGNEUR INTERNATIONAL ACADEMY</b> is a Pre-Nursery, Nursery and Primary School with a secured and serene environment conducive for learning and development.  </p>
-						Our teachers are well trained, qualified, competent and well mannered. 
-						We are located at Opposite Post Army Housing Estate, Phase 5, Kurudu, Abuja Nigeria.  
-						<br><br><P><b>OUR VISION:</b><br> To develop the total child whose
-						work not only identifies him as an
-						individual but unites him with the
-						society bound together by men’s
-						labour.</p>
-						<b>OUR MISSION:</b><br>To stir up life but leave it free to
-						develop in an adequately
-						prepared environment.
-						<br><b style="color: #0A85BB;">Click here to join us</b>
-					
-
-					</div>
-				</div>
             </div>
-			
-        </header>
-		
+        </section>
         
       	
 		<footer id="footer">
