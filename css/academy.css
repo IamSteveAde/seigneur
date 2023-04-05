@@ -1,0 +1,59 @@
+.intro .intro-container{
+    width: 100%;
+    height: 65vh;
+    background-image: url("../img/school.jpeg");
+}
+.academy-header{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.048)), #009EE3;
+    width: 700px;
+    height: 150px;
+    margin-top: 30px;
+    margin: auto;
+    top: -80px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px white;
+    
+    
+}
+.academy-header h1{
+    color: white;
+    
+    
+}
+#service{
+    margin-bottom:40px;
+}
+/* Mobile Screen */
+@media only screen and (max-width: 600px) {
+    .intro .intro-container{
+        width: 100%;
+        height: 65vh;
+        background-image: url("../img/school.jpeg");
+    }
+    .academy-header{
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.048)), #009EE3;
+        width: 80%;
+        height: 170px;
+        margin-top: 30px;
+        margin: auto;
+        top: -80px;
+        position: relative;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        border-radius: 7px;
+        box-shadow: 5px 5px 5px white;
+        
+        
+    }
+    .academy-header h1{
+        color: white;
+        
+        
+    }
+
+}
