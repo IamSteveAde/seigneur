@@ -57,3 +57,54 @@
     }
 
 }
+.schools{
+    width: 80%;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+.underline-hover::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #009EE3;
+    transition: width 0.25s ease-out;
+    
+}
+.underline-hover:hover::before{
+    width: 100%;
+
+}
+.underline-hover{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 0.25rem;
+}
+.school{
+    position: relative;
+    margin-bottom: 80px;
+    text-align: justify;
+}
+.school:hover i{
+    color: #009EE3;
+
+}
+/* Mobile Screen */
+@media only screen and (max-width: 600px) {
+    .schools{
+        width: 80%;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .schools{
+        width: 80%;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+
+}
