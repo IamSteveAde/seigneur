@@ -705,11 +705,13 @@ figcaption.mask {
 
 .portfolio-item:hover figcaption.mask {
     bottom: 0;
+    
 }
 
 figcaption.mask h3 {
     margin: 0;
     color: #fff;
+    
 }
 
 ul.external {
@@ -747,10 +749,13 @@ ul.external li a {
 ul.external li a:hover {
     background-color: #009EE3;
     color: #fff;
+    
 }
 
 .portfolio-item:hover ul.external {
     top: 0;
+    
+    
 }
 
 .fancybox-skin {
@@ -1593,20 +1598,31 @@ textarea.form-control {
 }
 @media only screen and (max-width: 600px) {
     #boxed{
-        width: 100%;
+        width: 90%;
     }
 }
 @media only screen and (max-width: 600px) {
     .portfolio-item{
-        width: 100%;
+        width: 90%;
     }
     .portfolio-item img{
-        width: 100%;
+        width: 90%;
     }
     
 }
 @media only screen and (max-width: 600px) {
     #mad h2, p{
         font-size: 19px;
+    }
+    .portfolio-item:hover ul.external {
+        width: 90%;
+        right: -90px;
+    }
+    .portfolio-item:hover figcaption.mask {
+        width: 90%;
+    }
+    #mike{
+        justify-content: center;
+        margin-left: 25px;
     }
 }
