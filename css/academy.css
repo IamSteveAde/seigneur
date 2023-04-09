@@ -142,7 +142,7 @@ html{
         letter-spacing: 3px;
         color: white;
         border-right: 5px solid;
-        width: 45%;
+        width: 47%;
         white-space: nowrap;
         overflow: hidden;
         animation: typing 2s steps(10), cursor .4s step-end infinite alternate;
