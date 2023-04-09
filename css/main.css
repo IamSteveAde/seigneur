@@ -556,7 +556,7 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #009EE3;
+    background:rgba(25, 25, 48, 0.726);
     color: #fff;
 }
 
@@ -1604,4 +1604,9 @@ textarea.form-control {
         width: 100%;
     }
     
+}
+@media only screen and (max-width: 600px) {
+    #mad h2, p{
+        font-size: 19px;
+    }
 }
