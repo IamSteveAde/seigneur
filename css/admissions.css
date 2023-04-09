@@ -155,5 +155,39 @@
         
     }
 }
+.typewrite{
+    font-size: 3em;
+    letter-spacing: 10px;
+    color: white;
+    border-right: 5px solid;
+    width: 52%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(10), cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+    50%{ border-color: transparent;}
+}
+@keyframes typing{
+    from {width: 0}
+}
 
+@media only screen and (max-width: 600px) {
+    .typewrite{
+        font-size: 18px;
+        letter-spacing: 10px;
+        color: white;
+        border-right: 5px solid;
+        width: 49%;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 2s steps(10), cursor .4s step-end infinite alternate;
+    }
+    @keyframes cursor{
+        50%{ border-color: transparent;}
+    }
+    @keyframes typing{
+        from {width: 0}
+    }
 
+}
