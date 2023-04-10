@@ -24,6 +24,7 @@ body {
     overflow-x: hidden;
     
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -1625,5 +1626,10 @@ textarea.form-control {
     #mike{
         justify-content: center;
         margin-left: 25px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
     }
 }
