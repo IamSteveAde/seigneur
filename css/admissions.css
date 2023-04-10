@@ -47,7 +47,7 @@
     }
     .admin-container{
         display: inline-block;
-        text-align: justify;
+        text-align: left;
     }
     .admission .admin-box .image-Container img{
         width: 80%;
@@ -74,7 +74,7 @@
     }
     .admin-container{
         display: inline-block;
-        text-align: justify;
+        text-align: left;
     }
     .admission .admin-box .image-Container img{
         width: 80%;
@@ -101,7 +101,7 @@
         }
         .admin-container{
             display: inline-block;
-            text-align: justify;
+            text-align: left;
         }
         .admission .admin-box .image-Container img{
             width: 80%;
@@ -175,6 +175,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .admission{
+        text-align: left;
+    }
     .typewrite{
         font-size: 28px;
         letter-spacing: 3px;

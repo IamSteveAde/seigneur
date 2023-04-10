@@ -97,7 +97,7 @@ html{
 .school{
     position: relative;
     margin-bottom: 80px;
-    text-align: justify;
+    text-align: left;
 }
 .school:hover i{
     color: #009EE3;
